@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 10%;
+    background-color: rgba(177, 164, 209, 0.705);
+    padding: 10px 20px 0px;
+    border: solid 1px gray;
+    
+    
+    
+}
+.header {
+    background-color: rgba(177, 164, 209, 0.705);
+    min-height: 150px;
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    border: 1px;
+}
+.footer {
+    background-color: rgba(177, 164, 209, 0.705);
+    min-height: 150px;
+    border: 1px;
+}
+table{
+
+    width: 600px;
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    border: solid 1px gray 
+    
+    
+    
+}
+
+table thead th{
+    font: Arial;
+    background-color: rgb(54, 51, 58);
+    color: white;
+    text-align: left;
+    -ms-grid-row-align: center;
+    
+}
+
+table tfoot td{
+    background-color: lightgray;
+}
+
+table tbody td{
+    background-color: #f1f1f1;
+    
+}
+
+table tbody tr:hover td{
+    background-color: #E9E9E9;
+    
+}
+
+form{
+    width: 100px;
+}
